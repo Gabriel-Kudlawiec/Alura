@@ -1,5 +1,6 @@
 header {
     background-color: #bbbbbb;
+    padding: 20px 0;
 }
 
 .caixa {
@@ -15,7 +16,21 @@ nav {
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 #banner {
