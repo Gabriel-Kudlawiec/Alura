@@ -1,13 +1,25 @@
-body {
-   
+header {
+    background-color: #bbbbbb;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
 }
 
 #banner {
     width: 100%;
-}
-
-.titulo-principal {
-    padding-left: 20px;
 }
 
 .principal {
@@ -31,9 +43,6 @@ em strong {
     color: #ff0000;
 }
 
-.itens {
-    font-style:italic;
-}
 
 .beneficios {
     background-color: #ffffff;
@@ -41,11 +50,12 @@ em strong {
     
 }
 
-ul {
+.itens {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    font-style:italic;
 }
 
 .imagembeneficios {
